@@ -397,8 +397,13 @@ footer .nav-logo h3{
         width: 200px;
     }
     body{
+        
         padding: 0;
         margin:0;
+    }
+    main{
+        
+        margin: auto;
     }
    .max-width{
     
@@ -518,9 +523,10 @@ footer .nav-logo h3{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         padding-top: 5rem;
-    gap:0.5rem;
-
-    padding-bottom: 5rem;
+        margin: auto;
+        width: 80vw;
+        gap: 5px;
+       padding-bottom: 5rem;
     }
     
     .games div img{
