@@ -273,7 +273,9 @@ background-clip: text;
 
 }
 .career-article,.career-photo{
-    width: 50%;
+    width: 45%;
+    margin: auto;
+    padding-bottom:2rem ;
 }
 .career-photo img{
     width: 100%;
@@ -451,6 +453,15 @@ footer .nav-logo h3{
     width: 100%;
     margin: auto;
    }
+   .banner-details{
+    background-image: url("./images/Group 14.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+   }
+  
+   /* we gamers */
 
    .we-gamers{
     flex-direction: column-reverse;
@@ -645,6 +656,7 @@ footer .nav-logo h3{
         
         
     }
+   
     .career-article,.career-photo{
         width: 70vw;
         margin: auto;
@@ -657,6 +669,7 @@ footer .nav-logo h3{
         width:70vw ;
         padding: 10px;
     }
+    
 
     /*  */
     
